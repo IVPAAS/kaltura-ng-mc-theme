@@ -1,10 +1,12 @@
+@import '_variables.scss';
+
 @font-face {
   font-family: 'kmcng-icon-pack';
   src:
-    url('/fonts/kmcng-icon-pack.woff2?hfxnrr') format('woff2'),
-    url('/fonts/kmcng-icon-pack.ttf?hfxnrr') format('truetype'),
-    url('/fonts/kmcng-icon-pack.woff?hfxnrr') format('woff'),
-    url('/fonts/kmcng-icon-pack.svg?hfxnrr#kmcng-icon-pack') format('svg');
+    url('#{$mc-theme-font-path}/kmcng-icon-pack.woff2?hfxnrr') format('woff2'),
+    url('#{$mc-theme-font-path}/kmcng-icon-pack.ttf?hfxnrr') format('truetype'),
+    url('#{$mc-theme-font-path}/kmcng-icon-pack.woff?hfxnrr') format('woff'),
+    url('#{$mc-theme-font-path}/kmcng-icon-pack.svg?hfxnrr#kmcng-icon-pack') format('svg');
   font-weight: normal;
   font-style: normal;
 }
