@@ -29,8 +29,8 @@
   },
   "homepage": "https://github.com/kaltura/kaltura-ng-mc-theme#readme",
   "dependencies": {
-    "@kaltura-ng2/kaltura-primeng-ui": "^1.0.0-alpha",
-    "@kaltura-ng2/kaltura-ui": "^0.0.2",
+    "@kaltura-ng2/kaltura-primeng-ui": "*",
+    "@kaltura-ng2/kaltura-ui": "*",
     "normalize.css": "^7.0.0",
     "primeng": "4.0.3"
   }

@@ -2,11 +2,11 @@
 # yarn lockfile v1
 
 
-"@kaltura-ng2/kaltura-primeng-ui@^1.0.0-alpha":
+"@kaltura-ng2/kaltura-primeng-ui@*":
   version "1.0.0-alpha"
   resolved "https://registry.yarnpkg.com/@kaltura-ng2/kaltura-primeng-ui/-/kaltura-primeng-ui-1.0.0-alpha.tgz#03829ec549e16452b5326beb92ec0178b010be4e"
 
-"@kaltura-ng2/kaltura-ui@^0.0.2":
+"@kaltura-ng2/kaltura-ui@*":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@kaltura-ng2/kaltura-ui/-/kaltura-ui-0.0.2.tgz#1646993cdb1c95afe538ab36476e206cd42cb729"
 
