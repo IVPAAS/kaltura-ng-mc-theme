@@ -1,0 +1,37 @@
+{
+  "name": "@kaltura-ng/mc-theme",
+  "version": "1.0.0",
+  "license": "AGPL-3.0",
+  "description": "Kaltura theme for Angular 4 and up management console applications",
+  "contributors": [
+    {
+      "name": "Eran Sakal",
+      "email": "eran@sakalim.com"
+    },
+    {
+      "name": "Amir Chervinsky",
+      "email": "amir.chr@gmail.com"
+    }
+  ],
+  "peerDependencies": {
+
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaltura/kaltura-ng-mc-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/kaltura/kaltura-ng-mc-theme/issues"
+  },
+  "homepage": "https://github.com/kaltura/kaltura-ng-mc-theme#readme",
+  "dependencies": {
+    "@kaltura-ng2/kaltura-primeng-ui": "^1.0.0-alpha",
+    "@kaltura-ng2/kaltura-ui": "^0.0.2",
+    "normalize.css": "^7.0.0",
+    "primeng": "4.0.3"
+  }
+}
