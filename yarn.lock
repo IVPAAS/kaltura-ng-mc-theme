@@ -2,13 +2,13 @@
 # yarn lockfile v1
 
 
-"@kaltura-ng2/kaltura-primeng-ui@*":
-  version "1.0.0-alpha"
-  resolved "https://registry.yarnpkg.com/@kaltura-ng2/kaltura-primeng-ui/-/kaltura-primeng-ui-1.0.0-alpha.tgz#03829ec549e16452b5326beb92ec0178b010be4e"
+"@kaltura-ng/kaltura-primeng-ui@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@kaltura-ng/kaltura-primeng-ui/-/kaltura-primeng-ui-0.2.0.tgz#1790129b0bc3bcff6dbaefeb7269e9629f90f1c3"
 
-"@kaltura-ng2/kaltura-ui@*":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@kaltura-ng2/kaltura-ui/-/kaltura-ui-0.0.2.tgz#1646993cdb1c95afe538ab36476e206cd42cb729"
+"@kaltura-ng/kaltura-ui@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@kaltura-ng/kaltura-ui/-/kaltura-ui-0.2.0.tgz#4da62069e240d0b9730ec2b58702e85a494dd7e7"
 
 normalize.css@^7.0.0:
   version "7.0.0"

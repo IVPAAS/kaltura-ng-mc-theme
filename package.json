@@ -1,8 +1,9 @@
 {
   "name": "@kaltura-ng/mc-theme",
+  "private": true,
   "version": "0.1.0",
   "license": "AGPL-3.0",
-  "description": "Kaltura theme for Angular 4 and up management console applications",
+  "description": "Kaltura theme for Angular management console applications",
   "contributors": [
     {
       "name": "Eran Sakal",
@@ -13,11 +14,19 @@
       "email": "amir.chr@gmail.com"
     }
   ],
-  "peerDependencies": {
-
+  "dependencies": {
+    "@kaltura-ng/kaltura-primeng-ui": "^0.2.0",
+    "@kaltura-ng/kaltura-ui": "^0.2.0",
+    "normalize.css": "^7.0.0",
+    "primeng": "4.0.3"
   },
-  "devDependencies": {},
-  "scripts": {},
+  "directories": {
+    "npmDist": "dist"
+  },
+  "scripts": {
+    "preinstall": "node ./scripts/prepare-dist.js",
+    "build": "node ./scripts/prepare-dist.js && cp -r ./themes ./dist && cp readme.md ./dist && cp LICENSE.txt ./dist"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kaltura/kaltura-ng-mc-theme.git"
@@ -28,10 +37,7 @@
     "url": "https://github.com/kaltura/kaltura-ng-mc-theme/issues"
   },
   "homepage": "https://github.com/kaltura/kaltura-ng-mc-theme#readme",
-  "dependencies": {
-    "@kaltura-ng2/kaltura-primeng-ui": "*",
-    "@kaltura-ng2/kaltura-ui": "*",
-    "normalize.css": "^7.0.0",
-    "primeng": "4.0.3"
+  "engines": {
+    "node": ">= 7.0.0"
   }
 }

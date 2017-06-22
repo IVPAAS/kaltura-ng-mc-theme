@@ -1,6 +1,10 @@
-# Node
-node_modules
-npm-debug.log
+# Node & NPM
+node_modules/**/*
+
+# gulp scripts
+.tmp/**/*
+dist/**/*
+coverage/**/*
 
 # JetBrains
 .idea
@@ -16,3 +20,12 @@ Desktop.ini
 # Mac
 .DS_Store
 **/.DS_Store
+
+# Typescript
+src/*.d.ts
+src/*.js
+
+
+# misc
+*.log
+npm-debug.log.*
