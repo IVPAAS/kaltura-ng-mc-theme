@@ -102,7 +102,8 @@ textarea.ui-inputtext {
   }
   .ui-chkbox-icon{
     margin-left: 0px;
-    margin-top: 3px;
+    margin-top: 0px;
+    line-height: 14px;
   }
 }
 .ui-chkbox-box:not(.ui-state-disabled):not(.ui-state-active):hover{
@@ -113,6 +114,10 @@ textarea.ui-inputtext {
   background-color: $kPrimary;
   border: 1px solid $kPrimary;
   color: #ffffff;
+}
+.ui-radiobutton-icon.fa-circle{
+  margin-top: 3px;
+  line-height: 10px !important;
 }
 
 /* data table */
