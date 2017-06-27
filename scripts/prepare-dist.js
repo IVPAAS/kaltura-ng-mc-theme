@@ -17,8 +17,9 @@ var createNpmPackageJson = require('./create-npm-package-json');
 
 		if (fs.existsSync(distPath)) {
 			deleteFolderRecursive(distPath);
-			fs.mkdirSync(distPath);
 		}
+
+		fs.mkdirSync(distPath);
 
 		var packageJsonFilePath = path.resolve(rootPath, 'package.json');
 		if (fs.existsSync(packageJsonFilePath)) {
