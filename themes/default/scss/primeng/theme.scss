@@ -462,15 +462,19 @@ td.ui-datatable-emptymessage{
 /* Calendar */
 .ui-calendar.ui-calendar-w-btn{
   border: 1px solid $kGrayscale4;
+  border-radius: 3px;
 }
 .ui-calendar{
   button.ui-state-default {
-    height: 24px;
+    height: 34px;
     border: 0px solid white;
     color: $kGrayscale4;
     &:active{
       box-shadow: none;
     }
+  }
+  .ui-button-icon-left.kIconcalendar{
+    font-size: 18px;
   }
   .ui-datepicker{
     padding: 0;
