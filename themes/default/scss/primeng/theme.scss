@@ -483,7 +483,7 @@ td.ui-datatable-emptymessage{
     margin: 0;
   }
   .ui-datepicker-header{
-    background: #01ACCD;
+    background: $kPrimary;
   }
   .ui-inputtext {
     width: 100px;
@@ -503,23 +503,26 @@ td.ui-datatable-emptymessage{
   .ui-datepicker-prev, .ui-datepicker-next{
     color: #ffffff !important;
     &:hover{
-      background: #01ACCD !important;
-      background-color: #01ACCD !important;
-      border: 0px solid #01ACCD !important;
+      background: $kPrimary !important;
+      background-color: $kPrimary !important;
+      border: 0px solid $kPrimary !important;
     }
   }
   .ui-datepicker-prev-hover, .ui-datepicker-next-hover, thead{
-    background: #01ACCD;
-    border: 0px solid #01ACCD;
+    background: $kPrimary;
+    border: 0px solid $kPrimary;
   }
   .ui-widget-header{
-    border: 0px solid #01ACCD;
+    border: 0px solid $kPrimary;
     border-radius: 0px;
   }
   .ui-state-default{
     color: $kGrayscale1;
     &.ui-state-active{
-      color: $kPrimary;
+      background-color: $kPrimary;
+      color: white;
+      height: 100%;
+      padding-top: 6px;
     }
   }
   .ui-timepicker.ui-widget-header{
