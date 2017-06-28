@@ -876,4 +876,20 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
   background-color: #263243 !important;
   opacity: 0.9 !important;
 }
-
+// confirmation dialogue
+.ui-dialog.ui-confirmdialog.ui-widget.ui-widget-content.ui-corner-all{
+  border-radius: 4px;
+  box-shadow: 0 16px 20px 0 rgba(0,0,0,0.3);
+}
+.ui-dialog.ui-confirmdialog .ui-dialog-titlebar.ui-widget-header{
+  height: 78px;
+}
+.ui-dialog-buttonpane.ui-widget-content{
+  border: 0;
+  border-top: 1px solid #d9d9d9;
+  height: 66px;
+  padding-top: 8px;
+  button{
+    height: 34px;
+  }
+}
