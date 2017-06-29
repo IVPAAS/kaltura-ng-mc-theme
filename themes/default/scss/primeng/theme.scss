@@ -762,6 +762,7 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
 }
 // tooltip
 .ng-tooltip {
+  word-wrap: break-word;
   background-color: black;
   color: #ffffff;
   font-size: 14px;
