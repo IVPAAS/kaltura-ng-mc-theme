@@ -20,11 +20,11 @@
     "normalize.css": "^7.0.0",
     "primeng": "4.0.3"
   },
-  "directories": {
-    "npmDist": "dist"
+  "config": {
+    "publishDirectory": "dist"
   },
   "scripts": {
-    "preinstall": "node ./scripts/prepare-dist.js",
+    "release": "standard-version",
     "build": "node ./scripts/prepare-dist.js && cp -r ./themes ./dist && cp readme.md ./dist && cp LICENSE.txt ./dist"
   },
   "repository": {
@@ -39,5 +39,8 @@
   "homepage": "https://github.com/kaltura/kaltura-ng-mc-theme#readme",
   "engines": {
     "node": ">= 7.0.0"
+  },
+  "devDependencies": {
+    "standard-version": "^4.2.0"
   }
 }
