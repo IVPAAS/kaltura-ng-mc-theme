@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 'use strict';
 
-// NOTICE - this code should not require libraries (it is used during preinstall).
 var fs = require('fs');
 var path = require('path');
-var findRoot = require('./libs/find-root');
-var createNpmPackageJson = require('./create-npm-package-json');
-// NOTICE - this code should not require libraries (it is used during preinstall).
+var shelljs = require('shelljs');
+var findRoot = require('find-root');
+var readJsonFile = require('read-json-file');
+var writeJsonFile = require('write-json-file');
 
 (async() => {
 	// Use folder with nearest package.json as root
@@ -21,12 +21,25 @@ var createNpmPackageJson = require('./create-npm-package-json');
 
 		fs.mkdirSync(distPath);
 
-		var packageJsonFilePath = path.resolve(rootPath, 'package.json');
-		if (fs.existsSync(packageJsonFilePath)) {
-			var packageFileContent = fs.readFileSync(packageJsonFilePath,'utf8');
-			var npmPackageFileContent = createNpmPackageJson(packageFileContent);
-			fs.writeFileSync(path.resolve(rootPath,'dist/package.json'),npmPackageFileContent);
-		}
+		var rootPackage = readJsonFile(path.join(rootPath,'package.json'),(err,pkg) =>
+		{
+			if (err )
+			{
+				console.error(err);
+				process.exit(1);
+			}
+
+      pkg.private = false;
+      pkg.peerDependencies = pkg.dependencies;
+      pkg.dependencies = {};
+      pkg.devDependencies = {};
+      pkg.scripts = {};
+
+      writeJsonFile.sync(path.join(distPath,'package.json'), pkg, { indent : 2});
+		});
+
+		shelljs.config.fatal = true;
+		shelljs.cp('-r',['LICENSE.txt','README.md','themes'],distPath);
 	}
 })();
 

@@ -17,15 +17,19 @@
   "dependencies": {
     "@kaltura-ng/kaltura-primeng-ui": "^0.2.0",
     "@kaltura-ng/kaltura-ui": "^0.2.0",
+    "find-root": "^1.1.0",
     "normalize.css": "^7.0.0",
-    "primeng": "4.0.3"
+    "primeng": "4.0.3",
+    "read-json-file": "^1.0.1",
+    "shelljs": "^0.7.8",
+    "write-json-file": "^2.2.0"
   },
   "config": {
     "publishDirectory": "dist"
   },
   "scripts": {
     "release": "standard-version",
-    "build": "node ./scripts/prepare-dist.js && cp -r ./themes ./dist && cp readme.md ./dist && cp LICENSE.txt ./dist"
+    "build": "node ./scripts/build.js"
   },
   "repository": {
     "type": "git",
