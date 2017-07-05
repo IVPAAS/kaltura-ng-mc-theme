@@ -17,15 +17,19 @@
   "dependencies": {
     "@kaltura-ng/kaltura-primeng-ui": "^0.2.0",
     "@kaltura-ng/kaltura-ui": "^0.2.0",
+    "find-root": "^1.1.0",
     "normalize.css": "^7.0.0",
-    "primeng": "4.0.3"
+    "primeng": "4.0.3",
+    "read-json-file": "^1.0.1",
+    "shelljs": "^0.7.8",
+    "write-json-file": "^2.2.0"
   },
-  "directories": {
-    "npmDist": "dist"
+  "config": {
+    "publishDirectory": "dist"
   },
   "scripts": {
-    "preinstall": "node ./scripts/prepare-dist.js",
-    "build": "node ./scripts/prepare-dist.js && cp -r ./themes ./dist && cp readme.md ./dist && cp LICENSE.txt ./dist"
+    "release": "standard-version",
+    "build": "node ./scripts/build.js"
   },
   "repository": {
     "type": "git",
@@ -39,5 +43,8 @@
   "homepage": "https://github.com/kaltura/kaltura-ng-mc-theme#readme",
   "engines": {
     "node": ">= 7.0.0"
+  },
+  "devDependencies": {
+    "standard-version": "^4.2.0"
   }
 }
