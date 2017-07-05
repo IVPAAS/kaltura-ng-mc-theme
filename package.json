@@ -35,14 +35,21 @@
     "type": "git",
     "url": "https://github.com/kaltura/kaltura-ng-mc-theme.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "kaltura",
+    "kaltura-ng"
+  ],
+  "author": {
+    "name": "Kaltura Community",
+    "email": "community@kaltura.com"
+  },
   "bugs": {
     "url": "https://github.com/kaltura/kaltura-ng-mc-theme/issues"
   },
   "homepage": "https://github.com/kaltura/kaltura-ng-mc-theme#readme",
   "engines": {
-    "node": ">= 7.0.0"
+    "node": ">= 7.0.0",
+    "yarn": ">= 0.24.6"
   },
   "devDependencies": {
     "standard-version": "^4.2.0"

@@ -1,5 +1,7 @@
-
 # Kaltura Management Console Theme
+
+[![Gitter chat](https://badges.gitter.im/kaltura-ng/kaltura-ng.png)](https://gitter.im/kaltura-ng/kmc-ng) ![npm (scoped)](https://img.shields.io/npm/v/@kaltura-ng/mc-theme.svg?maxAge=86400)
+
 Kaltura theme for Angular 4 and up management console applications
 
 ## License and Copyright Information
