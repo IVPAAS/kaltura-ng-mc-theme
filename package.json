@@ -17,12 +17,8 @@
   "dependencies": {
     "@kaltura-ng/kaltura-primeng-ui": "^0.2.0",
     "@kaltura-ng/kaltura-ui": "^0.2.0",
-    "find-root": "^1.1.0",
     "normalize.css": "^7.0.0",
-    "primeng": "4.0.3",
-    "read-json-file": "^1.0.1",
-    "shelljs": "^0.7.8",
-    "write-json-file": "^2.2.0"
+    "primeng": "4.0.3"
   },
   "config": {
     "publishDirectory": "dist"
@@ -52,6 +48,10 @@
     "yarn": ">= 0.24.6"
   },
   "devDependencies": {
-    "standard-version": "^4.2.0"
+    "standard-version": "^4.2.0",
+    "find-root": "^1.1.0",
+    "read-json-file": "^1.0.1",
+    "shelljs": "^0.7.8",
+    "write-json-file": "^2.2.0"
   }
 }
