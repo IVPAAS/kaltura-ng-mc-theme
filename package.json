@@ -15,7 +15,7 @@
     }
   ],
   "dependencies": {
-    "@kaltura-ng/dev-workspace": "^1.0.5",
+    "@kaltura-ng/dev-workspace": "^2.0.2",
     "@kaltura-ng/kaltura-primeng-ui": "^0.2.0",
     "@kaltura-ng/kaltura-ui": "^0.2.0",
     "normalize.css": "^7.0.0",

@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@kaltura-ng/dev-workspace@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@kaltura-ng/dev-workspace/-/dev-workspace-1.0.5.tgz#560464fefa5931741322bbcb6cd91e9aa699165d"
+"@kaltura-ng/dev-workspace@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@kaltura-ng/dev-workspace/-/dev-workspace-2.0.2.tgz#dfd635d29ecf941c3eecfdfb6d44cc32fb184b78"
   dependencies:
     babel-polyfill "^6.23.0"
     find-node-modules "^1.0.4"
