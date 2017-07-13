@@ -769,8 +769,8 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
   text-align: center;
   border-radius: 3px;
   padding: 5px 8px;
-  position: absolute;
-  z-index: 1000;
+  position: fixed;
+  z-index: 200000;
   display: block;
   opacity: 0;
   -webkit-transition: opacity 300ms;
