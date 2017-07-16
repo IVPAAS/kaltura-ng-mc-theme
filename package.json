@@ -19,7 +19,7 @@
     "@kaltura-ng/kaltura-primeng-ui": "^0.2.0",
     "@kaltura-ng/kaltura-ui": "^0.2.0",
     "normalize.css": "^7.0.0",
-    "primeng": "4.0.3"
+    "primeng": "^4.1.0"
   },
   "config": {
     "publishDirectory": "dist"
