@@ -648,7 +648,7 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
 
 // drop down
 .ui-dropdown-item.ui-corner-all{
-  height: 32px;
+  min-height: 32px;
   padding: 6px;
   &.ui-state-highlight {
     background-color: $kGrayscale6;
