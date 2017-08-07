@@ -20,11 +20,7 @@
     standard-version "^4.2.0"
     write-json-file "^2.2.0"
 
-"@kaltura-ng/kaltura-primeng-ui@^0.2.0":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@kaltura-ng/kaltura-primeng-ui/-/kaltura-primeng-ui-0.2.1.tgz#82334fffab725caad0d5afe81b0fc3bfa7e3fc0f"
-
-"@kaltura-ng/kaltura-ui@^0.2.0":
+"@kaltura-ng/kaltura-ui@0.x":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@kaltura-ng/kaltura-ui/-/kaltura-ui-0.2.0.tgz#4da62069e240d0b9730ec2b58702e85a494dd7e7"
 
