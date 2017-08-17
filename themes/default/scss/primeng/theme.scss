@@ -773,6 +773,7 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
 // tooltip
 .ng-tooltip {
   word-wrap: break-word;
+  white-space: pre-wrap;
   background-color: black;
   color: #ffffff;
   font-size: 14px;
@@ -787,7 +788,6 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
   -moz-transition: opacity 300ms;
   -o-transition: opacity 300ms;
   transition: opacity 300ms;
-  word-wrap: break-word;
 }
 
 .ng-tooltip-show {
