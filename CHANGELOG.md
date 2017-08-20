@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/kaltura/kaltura-ng-mc-theme/compare/v0.2.0...v0.3.0) (2017-08-20)
+
+
+### Bug Fixes
+
+* add $inputGroupTextColor to support PrimeNG 4.1.2 ([c26b9cc](https://github.com/kaltura/kaltura-ng-mc-theme/commit/c26b9cc))
+* add search icon to theme ([1a7e45b](https://github.com/kaltura/kaltura-ng-mc-theme/commit/1a7e45b))
+* resolve symlink issues for workspace development ([acb8929](https://github.com/kaltura/kaltura-ng-mc-theme/commit/acb8929))
+* support multiline dropdown items ([206f5aa](https://github.com/kaltura/kaltura-ng-mc-theme/commit/206f5aa))
+
+
+### Features
+
+* **upload-menu:** add orange color ([7728b9b](https://github.com/kaltura/kaltura-ng-mc-theme/commit/7728b9b))
+* add upload icons to icomoon font ([9256c45](https://github.com/kaltura/kaltura-ng-mc-theme/commit/9256c45))
+* allow lines breaks in tooltip text using \n ([611aec9](https://github.com/kaltura/kaltura-ng-mc-theme/commit/611aec9))
+* new icons ([3428562](https://github.com/kaltura/kaltura-ng-mc-theme/commit/3428562))
+
+
+### Performance Improvements
+
+* upgrade PrimeNG version to 4.1.3 to gain datagrid performances enhancements ([316da8d](https://github.com/kaltura/kaltura-ng-mc-theme/commit/316da8d))
+
+
+
 <a name="0.2.0"></a>
 # 0.2.0 (2017-07-26)
 
