@@ -10,7 +10,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 [class^="kIcon"], [class*=" kIcon"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'kmcng-icon-pack' !important;
@@ -26,20 +25,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.kIconUsers:before {
+  content: "\e92e";
+}
 .kIconbulk:before {
   content: "\e92b";
-  color: #fff;
 }
 .kIconlive:before {
   content: "\e92c";
-  color: #fff;
 }
 .kIconUpload:before {
   content: "\e92d";
-  color: #fff;
-}
-.kIconrefresh_small:before {
-  content: "\e90b";
 }
 .kIconpartial_small:before {
   content: "\e922";
@@ -67,6 +63,9 @@
 }
 .kIcondropdown_arrow_top:before {
   content: "\e91e";
+}
+.kIconrefresh_small:before {
+  content: "\e90b";
 }
 .kIconarrow_backward:before {
   content: "\e90c";
@@ -124,6 +123,9 @@
 }
 .kIconwarning:before {
   content: "\e918";
+}
+.kIconhelp_full:before {
+  content: "\e92f";
 }
 .kIconPlaylist_Manual:before {
   content: "\e929";
