@@ -24,7 +24,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.kIconContact-us:before {
+  content: "\e900";
+}
+.kIconUser-info:before {
+  content: "\e931";
+}
 .kIconUsers:before {
   content: "\e92e";
 }
@@ -36,6 +41,54 @@
 }
 .kIconUpload:before {
   content: "\e92d";
+}
+.kIconinfo:before {
+  content: "\e932";
+}
+.kIconhelp_full:before {
+  content: "\e92f";
+}
+.kIconPlaylist_Manual:before {
+  content: "\e929";
+}
+.kIconPlaylist_RuleBased:before {
+  content: "\e92a";
+}
+.kIconUnknown:before {
+  content: "\e927";
+}
+.kIconLive:before {
+  content: "\e928";
+}
+.kIconfolder_large:before {
+  content: "\e903";
+}
+.kIcongear:before {
+  content: "\e904";
+}
+.kIconhelp:before {
+  content: "\e905";
+}
+.kIconimage:before {
+  content: "\e906";
+}
+.kIconpicture:before {
+  content: "\e907";
+}
+.kIconplay:before {
+  content: "\e926";
+}
+.kIconrefresh:before {
+  content: "\e908";
+}
+.kIconsound:before {
+  content: "\e909";
+}
+.kIconuser:before {
+  content: "\e90a";
+}
+.kIconvideo:before {
+  content: "\e930";
 }
 .kIconpartial_small:before {
   content: "\e922";
@@ -95,10 +148,10 @@
   content: "\e919";
 }
 .kIcontree-arrow-down:before {
-  content: "\e900";
+  content: "\e901";
 }
 .kIconCopy-to-clipboard:before {
-  content: "\e901";
+  content: "\e902";
 }
 .kIconcalendar:before {
   content: "\e923";
@@ -123,49 +176,4 @@
 }
 .kIconwarning:before {
   content: "\e918";
-}
-.kIconhelp_full:before {
-  content: "\e92f";
-}
-.kIconPlaylist_Manual:before {
-  content: "\e929";
-}
-.kIconPlaylist_RuleBased:before {
-  content: "\e92a";
-}
-.kIconUnknown:before {
-  content: "\e927";
-}
-.kIconLive:before {
-  content: "\e928";
-}
-.kIconfolder_large:before {
-  content: "\e902";
-}
-.kIcongear:before {
-  content: "\e903";
-}
-.kIconhelp:before {
-  content: "\e904";
-}
-.kIconimage:before {
-  content: "\e905";
-}
-.kIconpicture:before {
-  content: "\e906";
-}
-.kIconplay:before {
-  content: "\e926";
-}
-.kIconrefresh:before {
-  content: "\e907";
-}
-.kIconsound:before {
-  content: "\e908";
-}
-.kIconuser:before {
-  content: "\e909";
-}
-.kIconvideo:before {
-  content: "\e90a";
 }
