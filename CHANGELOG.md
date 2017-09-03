@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/kaltura/kaltura-ng-mc-theme/compare/v0.3.0...v0.4.0) (2017-09-03)
+
+
+### Features
+
+* new icons ([117bbc5](https://github.com/kaltura/kaltura-ng-mc-theme/commit/117bbc5))
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/kaltura/kaltura-ng-mc-theme/compare/v0.2.0...v0.3.0) (2017-08-20)
 
