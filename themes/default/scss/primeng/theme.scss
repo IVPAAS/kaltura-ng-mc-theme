@@ -654,8 +654,16 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
   min-height: 32px;
   padding: 6px;
   &.ui-state-highlight {
-    background-color: $kGrayscale6;
+    font-weight: bold;
     color: #000000;
+    &:after{
+      font-family: 'kmcng-icon-pack';
+      content: "\e91a";
+      font-weight: normal;
+      float: right;
+      font-size: 12px;
+      padding-top: 2px;
+    }
   }
 }
 .ui-dropdown-panel .ui-dropdown-item:not(.ui-state-highlight):hover{
@@ -675,6 +683,7 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
 .ui-dropdown-trigger{
   border: 0px !important;
   .fa.fa-caret-down {
+    margin-top: 0.4em;
     position: absolute;
     color: $kGrayscale3;
   }
