@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.0"></a>
+# [0.5.0](https://github.com/kaltura/kaltura-ng-mc-theme/compare/v0.3.0...v0.5.0) (2017-09-24)
+
+
+### Bug Fixes
+
+* fix data-table header style (font-weight = bold) according to the style guide ([a3d4a21](https://github.com/kaltura/kaltura-ng-mc-theme/commit/a3d4a21))
+* fix data-table line height in cells for better readability when having multi lines ([b824cec](https://github.com/kaltura/kaltura-ng-mc-theme/commit/b824cec))
+* fix dropdown selected item style ([00fb8b4](https://github.com/kaltura/kaltura-ng-mc-theme/commit/00fb8b4))
+* fix menu header background and link colors ([2cb7e9e](https://github.com/kaltura/kaltura-ng-mc-theme/commit/2cb7e9e))
+* fix tooltip arrow height on Firefox ([9882df0](https://github.com/kaltura/kaltura-ng-mc-theme/commit/9882df0))
+
+
+### Features
+
+* new icons ([117bbc5](https://github.com/kaltura/kaltura-ng-mc-theme/commit/117bbc5))
+
+
+
 <a name="0.4.0"></a>
 # [0.4.0](https://github.com/kaltura/kaltura-ng-mc-theme/compare/v0.3.0...v0.4.0) (2017-09-03)
 
