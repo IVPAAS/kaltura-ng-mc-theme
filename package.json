@@ -26,7 +26,8 @@
   },
   "scripts": {
     "kws": "kws",
-    "release": "standard-version",
+    "release:prepare": "standard-version && npm run build",
+    "release:publish": "git push --follow-tags && cd dist && npm publish",
     "build": "node ./scripts/build.js"
   },
   "repository": {
