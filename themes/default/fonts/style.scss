@@ -24,12 +24,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.kIconContact-us:before {
-  content: "\e900";
-}
-.kIconUser-info:before {
-  content: "\e931";
-}
+
 .kIconUsers:before {
   content: "\e92e";
 }
@@ -41,6 +36,9 @@
 }
 .kIconUpload:before {
   content: "\e92d";
+}
+.kIconReport:before {
+  content: "\e900";
 }
 .kIconinfo:before {
   content: "\e932";
