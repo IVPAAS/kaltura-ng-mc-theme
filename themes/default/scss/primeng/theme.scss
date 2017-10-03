@@ -52,6 +52,7 @@ $stateHoverTextColor: $kGrayscale1;
 $inputBgColor: #ffffff;
 $inputTextColor: #333333;
 $invalidInputBorderColor: #cd0a0a;
+$inputGroupTextColor: #222222;
 
 @import '~primeng/resources/themes/theme';
 
@@ -158,6 +159,7 @@ textarea.ui-inputtext {
 .ui-datatable .ui-datatable-thead>tr>th{
   border-left: none;
   border-right: none;
+  font-weight: bold;
 }
 .ui-datatable th.ui-state-default{
   font-size: 13px;
@@ -174,6 +176,7 @@ textarea.ui-inputtext {
   font-weight: 400;
   color: $kGrayscale3;
   text-overflow: ellipsis;
+  line-height: 22px;
 }
 .ui-datatable .ui-datatable-data tr.ui-state-highlight{
   background-color: #ffffff;
@@ -648,11 +651,19 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
 
 // drop down
 .ui-dropdown-item.ui-corner-all{
-  height: 32px;
+  min-height: 32px;
   padding: 6px;
   &.ui-state-highlight {
-    background-color: $kGrayscale6;
+    font-weight: bold;
     color: #000000;
+    &:after{
+      font-family: 'kmcng-icon-pack';
+      content: "\e91a";
+      font-weight: normal;
+      float: right;
+      font-size: 12px;
+      padding-top: 2px;
+    }
   }
 }
 .ui-dropdown-panel .ui-dropdown-item:not(.ui-state-highlight):hover{
@@ -672,6 +683,7 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
 .ui-dropdown-trigger{
   border: 0px !important;
   .fa.fa-caret-down {
+    margin-top: 0.4em;
     position: absolute;
     color: $kGrayscale3;
   }
@@ -772,6 +784,7 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
 // tooltip
 .ng-tooltip {
   word-wrap: break-word;
+  white-space: pre-wrap;
   background-color: black;
   color: #ffffff;
   font-size: 14px;
@@ -786,7 +799,6 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
   -moz-transition: opacity 300ms;
   -o-transition: opacity 300ms;
   transition: opacity 300ms;
-  word-wrap: break-word;
 }
 
 .ng-tooltip-show {
@@ -795,6 +807,7 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
 
 .ng-tooltip::after {
   content: "";
+  height: 0px;
   position: absolute;
   border-style: solid;
 }
