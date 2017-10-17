@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.kIconArrow:before {
+  content: "\e931";
+}
 .kIconUsers:before {
   content: "\e92e";
 }
@@ -117,6 +120,18 @@
 }
 .kIconrefresh_small:before {
   content: "\e90b";
+}
+.kIconComplete:before {
+  content: "\e933";
+}
+.kIconError:before {
+  content: "\e935";
+}
+.kIconSync:before {
+  content: "\e938";
+}
+.kIconUpload2:before {
+  content: "\e93a";
 }
 .kIconarrow_backward:before {
   content: "\e90c";
