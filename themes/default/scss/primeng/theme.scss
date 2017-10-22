@@ -791,8 +791,8 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
   text-align: center;
   border-radius: 3px;
   padding: 5px 8px;
-  position: absolute;
-  z-index: 1000;
+  position: fixed;
+  z-index: 2000;
   display: block;
   opacity: 0;
   -webkit-transition: opacity 300ms;
@@ -933,6 +933,18 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
   width: 100%;
 }
 
+// area blocker
+.kAreaBlockerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  .centerOnScreen {
+    position: fixed !important;
+    top: 50%;
+    margin-top: -50px;
+  }
+}
 // switch box
 .ui-inputswitch {
   height: 24px;
