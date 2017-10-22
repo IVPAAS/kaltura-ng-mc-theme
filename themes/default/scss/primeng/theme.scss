@@ -932,3 +932,16 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
 .ui-listbox.ui-inputtext{
   width: 100%;
 }
+
+// area blocker
+.kAreaBlockerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  .centerOnScreen {
+    position: fixed !important;
+    top: 50%;
+    margin-top: -50px;
+  }
+}
