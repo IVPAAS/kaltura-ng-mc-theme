@@ -25,14 +25,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.kIconArrow:before {
-  content: "\e931";
+.kIconbulk:before {
+  content: "\e92b";
 }
 .kIconUsers:before {
   content: "\e92e";
-}
-.kIconbulk:before {
-  content: "\e92b";
 }
 .kIconlive:before {
   content: "\e92c";
@@ -43,11 +40,11 @@
 .kIconReport:before {
   content: "\e900";
 }
-.kIconinfo:before {
-  content: "\e932";
-}
 .kIconhelp_full:before {
   content: "\e92f";
+}
+.kIconinfo:before {
+  content: "\e932";
 }
 .kIconPlaylist_Manual:before {
   content: "\e929";
@@ -64,6 +61,9 @@
 .kIconfolder_large:before {
   content: "\e903";
 }
+.kIconsound:before {
+  content: "\e909";
+}
 .kIcongear:before {
   content: "\e904";
 }
@@ -77,19 +77,16 @@
   content: "\e907";
 }
 .kIconplay:before {
-  content: "\e926";
+  content: "\e930";
 }
 .kIconrefresh:before {
   content: "\e908";
-}
-.kIconsound:before {
-  content: "\e909";
 }
 .kIconuser:before {
   content: "\e90a";
 }
 .kIconvideo:before {
-  content: "\e930";
+  content: "\e931";
 }
 .kIconpartial_small:before {
   content: "\e922";
@@ -121,50 +118,32 @@
 .kIconrefresh_small:before {
   content: "\e90b";
 }
-.kIconComplete:before {
-  content: "\e933";
-}
-.kIconError:before {
-  content: "\e935";
-}
-.kIconSync:before {
-  content: "\e938";
-}
-.kIconUpload2:before {
-  content: "\e93a";
-}
-.kIconarrow_backward:before {
+.kIconarrow_up:before {
   content: "\e90c";
 }
-.kIconarrow_forward:before {
+.kIconarrow_backward:before {
   content: "\e90d";
 }
-.kIconcheck_large:before {
+.kIconarrow_forward:before {
   content: "\e90e";
 }
-.kIconfilter:before {
+.kIconcheck_large:before {
   content: "\e90f";
 }
-.kIconfolder:before {
+.kIconfilter:before {
   content: "\e910";
 }
-.kIconmagnifier:before {
+.kIconfolder:before {
   content: "\e911";
 }
-.kIconpen:before {
+.kIconmagnifier:before {
   content: "\e912";
 }
-.kIconshare:before {
+.kIconpen:before {
   content: "\e913";
 }
-.kIcontree-arrow-right:before {
-  content: "\e919";
-}
-.kIcontree-arrow-down:before {
-  content: "\e901";
-}
-.kIconCopy-to-clipboard:before {
-  content: "\e902";
+.kIconshare:before {
+  content: "\e914";
 }
 .kIconcalendar:before {
   content: "\e923";
@@ -175,18 +154,27 @@
 .kIconuser_small:before {
   content: "\e925";
 }
-.kIconupload:before {
-  content: "\e914";
+.kIconCopy-to-clipboard:before {
+  content: "\e902";
 }
-.kIconconfirmation:before {
+.kIconupload:before {
   content: "\e915";
 }
-.kIconmore:before {
+.kIconconfirmation:before {
   content: "\e916";
 }
-.kIcontrash:before {
+.kIconmore:before {
   content: "\e917";
 }
-.kIconwarning:before {
+.kIcontrash:before {
   content: "\e918";
+}
+.kIconwarning:before {
+  content: "\e926";
+}
+.kIcontree-arrow-right:before {
+  content: "\e919";
+}
+.kIcontree-arrow-down:before {
+  content: "\e901";
 }
