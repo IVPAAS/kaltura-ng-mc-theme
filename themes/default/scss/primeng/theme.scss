@@ -778,15 +778,18 @@ ul.ui-autocomplete-multiple-container.ui-widget.ui-inputtext{
 
 // spinner
 .ui-spinner.ui-widget{
-  height: 24px;
+  height: 34px;
   .ui-spinner-button{
-    height: 13px;
+    height: 16px;
   }
   .ui-spinner-up{
     top: 1px;
   }
   .ui-spinner-down{
-    top: 13px;
+    top: 17px;
+  }
+  .ui-inputtext{
+    width: 80px;
   }
 }
 // tooltip
