@@ -8,7 +8,7 @@ var findRoot = require('find-root');
 var readJsonFile = require('read-json-file');
 var writeJsonFile = require('write-json-file');
 
-(async() => {
+(() => {
 	// Use folder with nearest package.json as root
 	var rootPath = findRoot(process.cwd());
 
