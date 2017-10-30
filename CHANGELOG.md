@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.6.0"></a>
+# [0.6.0](https://github.com/kaltura/kaltura-ng-mc-theme/compare/v0.5.0...v0.6.0) (2017-10-30)
+
+
+### Bug Fixes
+
+* add min height for tables ([a193322](https://github.com/kaltura/kaltura-ng-mc-theme/commit/a193322))
+* fix tooltip arrow height on Firefox for all placement options ([8291bc4](https://github.com/kaltura/kaltura-ng-mc-theme/commit/8291bc4))
+* layout fixes for PrimeNG spinner component ([a81f1db](https://github.com/kaltura/kaltura-ng-mc-theme/commit/a81f1db))
+* updated text input style ([7efe6b5](https://github.com/kaltura/kaltura-ng-mc-theme/commit/7efe6b5))
+
+
+### Features
+
+* add icon colors ([16ca93e](https://github.com/kaltura/kaltura-ng-mc-theme/commit/16ca93e))
+* updated icons font now includes moderation flag icon ([b2155d4](https://github.com/kaltura/kaltura-ng-mc-theme/commit/b2155d4))
+* updated icons font now includes upload status icons ([b8371aa](https://github.com/kaltura/kaltura-ng-mc-theme/commit/b8371aa))
+
+
+
 <a name="0.5.0"></a>
 # [0.5.0](https://github.com/kaltura/kaltura-ng-mc-theme/compare/v0.3.0...v0.5.0) (2017-09-24)
 
